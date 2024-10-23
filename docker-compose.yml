@@ -1,0 +1,6 @@
+services:
+  gokapi:
+    image: flowkat/filekat:1.0.0
+    build: .
+    ports:
+      - '53842:53842'
